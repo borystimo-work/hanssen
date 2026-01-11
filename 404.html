@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-fls-darklite="">
+	<head>
+		<style data-fls-preloader="true" rel="preload">
+			body>*:not(.fls-preloader) {
+      opacity: 0;
+      visibility: hidden;
+   }
+
+   [data-fls-preloader-loaded] body>*:not(.fls-preloader):not(.scroll-to-top) {
+      transition: opacity 0.5s ease 0s;
+      opacity: 1;
+      visibility: visible;
+   }
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>404 Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760130432251"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760130432251">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page page--404">
+				<div class="page__container">
+					<div class="error">
+						<a href="index.html" data-fls-rounded="" class="rounded">
+							<span class="error__span error__span--icon-arrow">Back to Homepage</span>
+						</a>
+						<div data-fls-rounded="" class="rounded rounded--bottom">Error 404 - Page not found</div>
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/404-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/404-1200.webp" type="image/webp">
+							<img class="error__image" alt="Image" src="./assets/img/404.webp">
+						</picture>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
