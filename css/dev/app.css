@@ -597,12 +597,11 @@ html.lg-on {
   line-height: 1;
 }
 .socialitem {
-  will-change: transform;
-  transform: translate(20%, 0%);
+  transform: translate(2.1875rem, 0rem);
   opacity: 0;
 }
 .socialitem.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0rem, 0rem);
   opacity: 1;
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
 }
@@ -721,12 +720,11 @@ html.lg-on {
   padding-inline: 2rem;
   background-color: var(--bg-muted);
   border-radius: 0.75rem;
-  will-change: transform;
-  transform: translate(20%, 0%);
+  transform: translate(3.75rem, 0);
   opacity: 0;
 }
 .cardpreview.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
   transition: transform 0.8s ease, opacity 0.8s ease, background-color 0.3s ease 0s;
 }
@@ -787,20 +785,20 @@ html.lg-on {
   padding: 0;
 }
 .card--exhibitions .card__title, .card--awards .card__title, .card--about .card__title {
-  transform: translate(0%, 60%);
+  transform: translate(0, 1.25rem);
   opacity: 0;
 }
 .card--exhibitions .card__title.--watcher-view, .card--awards .card__title.--watcher-view, .card--about .card__title.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .card--exhibitions .card__text p, .card--awards .card__text p, .card--about .card__text p {
-  transform: translate(0%, 30%);
+  transform: translate(0, 1.875rem);
   opacity: 0;
 }
 .card--exhibitions .card__text p.--watcher-view, .card--awards .card__text p.--watcher-view, .card--about .card__text p.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .card--exhibitions .card__text p.--watcher-view:nth-child(1), .card--awards .card__text p.--watcher-view:nth-child(1), .card--about .card__text p.--watcher-view:nth-child(1) {
@@ -818,12 +816,12 @@ html.lg-on {
   flex: 1 1 39.375rem;
 }
 .card__body--form {
-  transform: translate(0%, 8%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .card__body--form.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .card__bottom {
@@ -871,11 +869,11 @@ html.lg-on {
   text-align: right;
 }
 .info-card__row {
-  transform: translate(20%, 0%);
+  transform: translate(2.5rem, 0);
   opacity: 0;
 }
 .info-card__row.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .info-card__row.--watcher-view:nth-child(1) {
@@ -939,13 +937,12 @@ html.lg-on {
   margin-bottom: 0rem;
 }
 .top-content-page__body {
-  transform: translate(0%, 15%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
-  will-change: transform;
 }
 .top-content-page__body.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .info-content-page {
@@ -961,12 +958,11 @@ html.lg-on {
 }
 .info-content-page__row {
   background-color: var(--bg-muted);
-  transform: translate(20%, 0%);
+  transform: translate(3.125rem, 0);
   opacity: 0;
-  will-change: transform;
 }
 .info-content-page__row.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .info-content-page__row.--watcher-view:nth-child(1) {
@@ -989,12 +985,11 @@ html.lg-on {
   line-height: 1.2;
 }
 .article-content-page__text p {
-  transform: translate(10%, 0%);
+  transform: translate(1.875rem, 0);
   opacity: 0;
-  will-change: transform;
 }
 .article-content-page__text p.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .article-content-page__text p.--watcher-view:nth-child(1) {
@@ -1025,7 +1020,7 @@ html.lg-on {
   overflow: hidden;
 }
 .journalitem:has(.journalitem__description--big) {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
 }
 .journalitem:has(.journalitem__description--big) .journalitem__picture {
   aspect-ratio: 942/1056;
@@ -1038,12 +1033,12 @@ html.lg-on {
   max-width: none;
 }
 .journalitem {
-  transform: translate(10%, 0%);
+  transform: translate(3.125rem, 0);
   opacity: 0;
 }
 .journalitem.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .journalitem__picture {
@@ -2096,13 +2091,12 @@ body:not(.lg-from-hash)
   display: block;
   overflow: hidden;
   border-radius: 0 0.9375rem 0.9375rem 0.9375rem;
-  transform: translate(5%, 0%);
+  transform: translate(3.125rem, 0);
   opacity: 0;
-  will-change: transform;
 }
 .workitem.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .workitem__picture {
@@ -2449,11 +2443,11 @@ textarea.input {
   flex-wrap: wrap;
 }
 .clients-content-page__picture {
-  transform: translate(20%, 0%);
+  transform: translate(2.5rem, 0);
   opacity: 0;
 }
 .clients-content-page__picture.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
 }
@@ -3049,6 +3043,12 @@ textarea.input {
   }
   .card__text {
     max-width: 31.25rem;
+  }
+  .prague-studio .card {
+    transform: translate(6.25rem, 0);
+  }
+  .prague-studio .sociallinks {
+    transform: translate(6.25rem, 0);
   }
 }
 @media (min-width: 120em){
