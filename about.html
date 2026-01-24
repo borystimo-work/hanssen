@@ -17,8 +17,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>About</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760130432245"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760130432245">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1769267280631"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769267280631">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,13 +63,13 @@
 							</div>
 							<div class="menu__content"></div>
 						</nav>
-						<button type="button" class="header__button" data-fls-darklite-set="">
+						<button type="button" class="header__button" aria-label="switch theme" data-fls-darklite-set="">
 							<svg width="30" height="21" viewbox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect y="0.5" width="30" height="20" rx="10" fill="#F6F6F6"></rect>
 								<circle cx="10" cy="10.5" r="4" fill="#0E1011"></circle>
 							</svg>
 						</button>
-						<button type="button" data-fls-menu="" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
 							<span></span>
 						</button>
 					</div>
@@ -83,8 +83,8 @@
 							<img class="pictureitem__image" alt="Image" src="./assets/img/about/hanssen.webp">
 						</picture>
 					</div>
-					<section class="page__content content-page">
-						<article data-fls-card="" class="card">
+					<div class="page__content content-page">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
 								<div class="card__author card-author">
 									<div class="card-author__picture">
@@ -93,7 +93,7 @@
 										</picture>
 									</div>
 									<div class="card-author__info">
-										<h4 class="card-author__name">Emma Hanssen</h4>
+										<div class="card-author__name">Emma Hanssen</div>
 										<div class="card-author__job-title">Photographer</div>
 									</div>
 								</div>
@@ -113,8 +113,8 @@
 									<a data-fls-watcher="" data-fls-watcher-once="" href="contact.html" data-fls-socialitem="" class="socialitem socialitem--inverse socialitem--icon-email">Contact Me</a>
 								</div>
 							</div>
-						</article>
-						<article data-fls-card="" class="card card--about">
+						</div>
+						<div data-fls-card="" class="card card--about">
 							<div class="card__body">
 								<h3 data-fls-watcher="" data-fls-watcher-once="" class="card__title card__title--32">About</h3>
 								<div class="card__text card__text--full">
@@ -130,7 +130,7 @@
 									</p>
 								</div>
 							</div>
-						</article>
+						</div>
 						<div class="content-page__clients clients-content-page">
 							<h4 class="clients-content-page__title">Clients</h4>
 							<div class="clients-content-page__items">
@@ -152,7 +152,7 @@
 							</div>
 						</div>
 						<div class="content-page__exhibitions exhibitions-content-page">
-							<article data-fls-card="" class="card card--exhibitions">
+							<div data-fls-card="" class="card card--exhibitions">
 								<div class="card__body">
 									<h3 data-fls-watcher="" data-fls-watcher-once="" class="card__title card__title--32">Exhibitions</h3>
 									<div class="card__text">
@@ -162,7 +162,7 @@
 										</p>
 									</div>
 								</div>
-							</article>
+							</div>
 							<div class="exhibitions-content-page__items">
 								<div data-fls-cardpreview="" data-fls-watcher="" data-fls-watcher-once="" class="cardpreview cardpreview--nolink">
 									<dl>
@@ -239,7 +239,7 @@
 							</div>
 						</div>
 						<div class="content-page__awards awards-content-page">
-							<article data-fls-card="" class="card card--awards">
+							<div data-fls-card="" class="card card--awards">
 								<div class="card__body">
 									<h3 data-fls-watcher="" data-fls-watcher-once="" class="card__title card__title--32">Awards & Recognitions</h3>
 									<div class="card__text">
@@ -249,7 +249,7 @@
 										</p>
 									</div>
 								</div>
-							</article>
+							</div>
 							<div class="awards-content-page__items">
 								<div data-fls-cardpreview="" data-fls-watcher="" data-fls-watcher-once="" class="cardpreview cardpreview--nolink">
 									<dl>
@@ -332,18 +332,18 @@
 							<a data-fls-watcher="" data-fls-watcher-once="" href="https://x.com/" target="_blank" data-fls-socialitem="" class="socialitem socialitem--icon-s-x">Twitter</a>
 							<a data-fls-watcher="" data-fls-watcher-once="" href="contact.html" data-fls-socialitem="" class="socialitem socialitem--inverse socialitem--icon-email">Contact Me</a>
 						</div>
-					</section>
+					</div>
 				</div>
 			</main>
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container">
 					<div class="footer__content">
-						<article data-fls-card="" class="card">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
 								<div class="card__author card-author">
 									<div class="card-author__picture">
 										<picture>
-											<img class="card-author__image" alt="Image" src="./assets/img/ema.webp">
+											<img loading="lazy" class="card-author__image" alt="Image" src="./assets/img/ema.webp">
 										</picture>
 									</div>
 									<div class="card-author__info">
@@ -353,7 +353,7 @@
 								</div>
 							</div>
 							<a href="work.html" data-fls-button="" class="button button--inverse">More Templates</a>
-						</article>
+						</div>
 						<div class="footer__menus">
 							<div data-fls-spollers="479.98, max" class="menu-footer spollers">
 								<details class="menu-footer__item spollers__item">
@@ -416,7 +416,7 @@
 			</footer>
 		</div>
 		<!-- ? scroll-to-top buttton -->
-		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="Вернуться наверх">
+		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="scroll to top">
 			<svg xmlns="http://www.w3.org/2000/svg" class="scroll-to-top__icon" width="14" height="18" viewbox="0 0 14 18" fill="none">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00012 17.75C6.58591 17.75 6.25012 17.4142 6.25012 17L6.25012 2.81066L1.53045 7.53033C1.23756 7.82322 0.762684 7.82322 0.469791 7.53033C0.176898 7.23744 0.176898 6.76256 0.469791 6.46967L6.46979 0.46967C6.61044 0.329018 6.80121 0.250001 7.00012 0.250001C7.19903 0.250001 7.3898 0.329018 7.53045 0.46967L13.5305 6.46967C13.8233 6.76256 13.8233 7.23744 13.5305 7.53033C13.2376 7.82322 12.7627 7.82322 12.4698 7.53033L7.75012 2.81066L7.75012 17C7.75012 17.4142 7.41434 17.75 7.00012 17.75Z" fill=""></path>
 			</svg>

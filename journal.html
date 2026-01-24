@@ -17,8 +17,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Journal</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760130432242"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760130432242">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1769267280627"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769267280627">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,13 +63,13 @@
 							</div>
 							<div class="menu__content"></div>
 						</nav>
-						<button type="button" class="header__button" data-fls-darklite-set="">
+						<button type="button" class="header__button" aria-label="switch theme" data-fls-darklite-set="">
 							<svg width="30" height="21" viewbox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect y="0.5" width="30" height="20" rx="10" fill="#F6F6F6"></rect>
 								<circle cx="10" cy="10.5" r="4" fill="#0E1011"></circle>
 							</svg>
 						</button>
-						<button type="button" data-fls-menu="" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
 							<span></span>
 						</button>
 					</div>
@@ -81,7 +81,7 @@
 						<div class="journalitem__picture">
 							<picture>
 								<source media="(max-width: 600px)" srcset="./assets/img/journal/01-600.webp" type="image/webp">
-								<img class="journalitem__image" alt="Image" src="./assets/img/journal/01.webp">
+								<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/01.webp">
 							</picture>
 						</div>
 						<div class="journalitem__description journalitem__description--big">
@@ -95,7 +95,7 @@
 						</div>
 					</a>
 					<section class="page__content content-page">
-						<article data-fls-card="" class="card">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
 								<h2 class="card__title">Journal</h2>
 								<div class="card__bottom">
@@ -108,12 +108,12 @@
 									<a href="#" class="card__button button button--muted">Explore</a>
 								</div>
 							</div>
-						</article>
+						</div>
 						<div class="content-page__journals">
 							<a href="mastering-light.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/02.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/02.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -126,7 +126,7 @@
 							<a href="candid-moments.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/03.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/03.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -139,7 +139,7 @@
 							<a href="transforming-landscapes.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/04.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/04.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -152,7 +152,7 @@
 							<a href="creating-impact.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/05.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/05.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -165,7 +165,7 @@
 							<a href="beyond-the-frame.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/06.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/06.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -178,7 +178,7 @@
 							<a href="adventure-awaits.html" data-fls-journalitem="" data-fls-watcher="" data-fls-watcher-once="" class="journalitem">
 								<div class="journalitem__picture">
 									<picture>
-										<img class="journalitem__image" alt="Image" src="./assets/img/journal/07.webp">
+										<img loading="lazy" class="journalitem__image" alt="Image" src="./assets/img/journal/07.webp">
 									</picture>
 								</div>
 								<div class="journalitem__description">
@@ -202,12 +202,12 @@
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container">
 					<div class="footer__content">
-						<article data-fls-card="" class="card">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
 								<div class="card__author card-author">
 									<div class="card-author__picture">
 										<picture>
-											<img class="card-author__image" alt="Image" src="./assets/img/ema.webp">
+											<img loading="lazy" class="card-author__image" alt="Image" src="./assets/img/ema.webp">
 										</picture>
 									</div>
 									<div class="card-author__info">
@@ -217,7 +217,7 @@
 								</div>
 							</div>
 							<a href="work.html" data-fls-button="" class="button button--inverse">More Templates</a>
-						</article>
+						</div>
 						<div class="footer__menus">
 							<div data-fls-spollers="479.98, max" class="menu-footer spollers">
 								<details class="menu-footer__item spollers__item">
@@ -280,7 +280,7 @@
 			</footer>
 		</div>
 		<!-- ? scroll-to-top buttton -->
-		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="Вернуться наверх">
+		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="scroll to top">
 			<svg xmlns="http://www.w3.org/2000/svg" class="scroll-to-top__icon" width="14" height="18" viewbox="0 0 14 18" fill="none">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00012 17.75C6.58591 17.75 6.25012 17.4142 6.25012 17L6.25012 2.81066L1.53045 7.53033C1.23756 7.82322 0.762684 7.82322 0.469791 7.53033C0.176898 7.23744 0.176898 6.76256 0.469791 6.46967L6.46979 0.46967C6.61044 0.329018 6.80121 0.250001 7.00012 0.250001C7.19903 0.250001 7.3898 0.329018 7.53045 0.46967L13.5305 6.46967C13.8233 6.76256 13.8233 7.23744 13.5305 7.53033C13.2376 7.82322 12.7627 7.82322 12.4698 7.53033L7.75012 2.81066L7.75012 17C7.75012 17.4142 7.41434 17.75 7.00012 17.75Z" fill=""></path>
 			</svg>

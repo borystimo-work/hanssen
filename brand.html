@@ -17,8 +17,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Brand</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760130432250"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760130432250">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1769267280635"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769267280635">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -63,13 +63,13 @@
 							</div>
 							<div class="menu__content"></div>
 						</nav>
-						<button type="button" class="header__button" data-fls-darklite-set="">
+						<button type="button" class="header__button" aria-label="switch theme" data-fls-darklite-set="">
 							<svg width="30" height="21" viewbox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect y="0.5" width="30" height="20" rx="10" fill="#F6F6F6"></rect>
 								<circle cx="10" cy="10.5" r="4" fill="#0E1011"></circle>
 							</svg>
 						</button>
-						<button type="button" data-fls-menu="" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
 							<span></span>
 						</button>
 					</div>
@@ -84,9 +84,9 @@
 						<div data-fls-rounded="" class="rounded rounded--bottom">Brand</div>
 					</div>
 					<section class="page__content content-page">
-						<article data-fls-card="" class="card">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
-								<h3 class="card__title">Brand</h3>
+								<h2 class="card__title">Brand</h2>
 								<div class="card__text">
 									<p>
 										Captured the elegance of a modern cityscape, blending architectural lines with natural light to showcase the vibrant pulse of urban life.
@@ -113,24 +113,24 @@
 									</div>
 								</dl>
 							</div>
-						</article>
+						</div>
 						<div class="gallery" data-fls-gallery="">
 							<a href="./assets/img/worksingle/01.webp" class="gallery__picture">
 								<picture>
 									<source media="(max-width: 600px)" srcset="./assets/img/worksingle/01-600.webp" type="image/webp">
-									<img class="gallery__image" alt="Beige" src="./assets/img/worksingle/01.webp">
+									<img loading="lazy" class="gallery__image" alt="Beige" src="./assets/img/worksingle/01.webp">
 								</picture>
 							</a>
 							<a href="./assets/img/worksingle/02.webp" class="gallery__picture">
 								<picture>
 									<source media="(max-width: 600px)" srcset="./assets/img/worksingle/02-600.webp" type="image/webp">
-									<img class="gallery__image" alt="Beige" src="./assets/img/worksingle/02.webp">
+									<img loading="lazy" class="gallery__image" alt="Beige" src="./assets/img/worksingle/02.webp">
 								</picture>
 							</a>
 						</div>
 						<div class="content-page__next-project next-project">
 							<div class="next-project__next">
-								<h4 class="next-project__title">Next</h4>
+								<h3 class="next-project__title">Next</h3>
 								<div class="next-project__body body-next-project">
 									<div class="body-next-project__text">
 										<p>
@@ -143,7 +143,7 @@
 							<a href="studio.html" data-fls-workitem="" data-fls-watcher="" data-fls-watcher-once="" class="workitem">
 								<div class="workitem__picture">
 									<picture>
-										<img class="workitem__image" alt="Image" src="./assets/img/work/studio.webp">
+										<img loading="lazy" class="workitem__image" alt="Image" src="./assets/img/work/studio.webp">
 									</picture>
 								</div>
 								<div data-fls-rounded="" class="rounded">
@@ -164,12 +164,12 @@
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container">
 					<div class="footer__content">
-						<article data-fls-card="" class="card">
+						<div data-fls-card="" class="card">
 							<div class="card__body">
 								<div class="card__author card-author">
 									<div class="card-author__picture">
 										<picture>
-											<img class="card-author__image" alt="Image" src="./assets/img/ema.webp">
+											<img loading="lazy" class="card-author__image" alt="Image" src="./assets/img/ema.webp">
 										</picture>
 									</div>
 									<div class="card-author__info">
@@ -179,7 +179,7 @@
 								</div>
 							</div>
 							<a href="work.html" data-fls-button="" class="button button--inverse">More Templates</a>
-						</article>
+						</div>
 						<div class="footer__menus">
 							<div data-fls-spollers="479.98, max" class="menu-footer spollers">
 								<details class="menu-footer__item spollers__item">
@@ -242,7 +242,7 @@
 			</footer>
 		</div>
 		<!-- ? scroll-to-top buttton -->
-		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="Вернуться наверх">
+		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="scroll to top">
 			<svg xmlns="http://www.w3.org/2000/svg" class="scroll-to-top__icon" width="14" height="18" viewbox="0 0 14 18" fill="none">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00012 17.75C6.58591 17.75 6.25012 17.4142 6.25012 17L6.25012 2.81066L1.53045 7.53033C1.23756 7.82322 0.762684 7.82322 0.469791 7.53033C0.176898 7.23744 0.176898 6.76256 0.469791 6.46967L6.46979 0.46967C6.61044 0.329018 6.80121 0.250001 7.00012 0.250001C7.19903 0.250001 7.3898 0.329018 7.53045 0.46967L13.5305 6.46967C13.8233 6.76256 13.8233 7.23744 13.5305 7.53033C13.2376 7.82322 12.7627 7.82322 12.4698 7.53033L7.75012 2.81066L7.75012 17C7.75012 17.4142 7.41434 17.75 7.00012 17.75Z" fill=""></path>
 			</svg>

@@ -2372,13 +2372,13 @@ textarea.input {
   overflow: hidden;
   will-change: transform;
   scale: 0.8;
-  translate: 0% 20%;
+  translate: 0 3.125rem;
   opacity: 0;
 }
 .prague-studio__picture.--watcher-view {
   transition: translate 0.8s ease 0s, scale 0.8s ease 0.8s, opacity 0.8s ease 0s;
   scale: 1;
-  translate: 0% 0%;
+  translate: 0 0;
   opacity: 1;
 }
 .prague-studio__image {
